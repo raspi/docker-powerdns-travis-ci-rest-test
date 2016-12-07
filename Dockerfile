@@ -15,6 +15,6 @@ COPY ./start.sh /opt/start.sh
 
 VOLUME ["/data"]
 
-EXPOSE 53/udp 53/tcp 80
+EXPOSE 53/udp 53/tcp 8081/tcp
 
 ENTRYPOINT ["/opt/start.sh"]
